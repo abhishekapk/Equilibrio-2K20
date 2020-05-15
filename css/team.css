@@ -1,0 +1,148 @@
+h1{
+            text-align: left;
+            font-size: 25px;
+            color:#333;
+        }
+        .profile_card{
+            position:relative;
+            overflow:hidden;
+            margin-bottom:10px;
+            border-width:0 0 5px 5px;
+            border-style: solid;
+            border-color:#FF3E78;
+        }
+        .profile_card  img{
+            width:100%;
+            height:auto;
+        }
+        .profile_card .profile_content{
+            position: absolute;
+            width:100%;
+            height:100%;
+            left:0;
+            bottom:0;
+            text-transform:capitalize;
+        }
+        .profile_card .profile_content h2{
+            font-size:20px;
+            padding:5px;
+            width:70%;
+            color:#fff;
+            background:#FF3E78;
+        }
+        .profile_card .profile_content h3{
+            width:80%;
+            color:#fff;
+            font-size:20px;
+            margin-top:10px;
+            padding:4px 10px;
+            background:#FF3E78;
+            transform: translateX(-100%);
+            transition: all 0.30s linear 0s;
+        }
+
+        
+        
+
+        .profile_card:hover .profile_content h3{
+            transform: translateX(0);
+        }
+
+        .profile_card .profile_content .social-link{
+            margin:20px 0;
+            padding:0;
+            transform: translateX(100%);
+            transition: all 0.50s linear 0s;
+        }
+        .profile_card:hover .profile_content .social-link{
+            transform: translateX(0);
+        }
+        .profile_card .profile_content .social-link li{
+            list-style:none;
+            display:block;
+            margin:7px 5px;
+            text-align: right;
+        }
+        .profile_card .profile_content .social-link li a{
+            color:#fff;
+            width:30px;
+            height:30px;
+            line-height:30px;
+            text-align: center;
+            background: transparent;
+            border:1px solid #FF3E78;
+        }
+        .profile_card .profile_content .social-link li a:hover{
+            background:#FF3E78;
+            text-decoration:none;
+        }
+
+
+        .profile_card1{
+            position:relative;
+            overflow:hidden;
+            margin-bottom:10px;
+            border-width:0 0 5px 5px;
+            border-style: solid;
+            border-color:rgb(91, 33, 129);
+        }
+        .profile_card1  img{
+            width:100%;
+            height:auto;
+        }
+        .profile_card1 .profile_content{
+            position: absolute;
+            width:100%;
+            height:100%;
+            left:0;
+            bottom:0;
+            text-transform:capitalize;
+        }
+        .profile_card1 .profile_content h2{
+            font-size:20px;
+            padding:5px;
+            width:70%;
+            color:#fff;
+            background:rgb(91, 33, 129);;
+        }
+        .profile_card1 .profile_content h3{
+            width:80%;
+            color:#fff;
+            font-size:20px;
+            margin-top:10px;
+            padding:4px 10px;
+            background:rgb(91, 33, 129);;
+            transform: translateX(-100%);
+            transition: all 0.30s linear 0s;
+        }
+        .profile_card1:hover .profile_content h3{
+            transform: translateX(0);
+        }
+        .profile_card1 .profile_content .social-link{
+            margin:20px 0;
+            padding:0;
+            transform: translateX(100%);
+            transition: all 0.50s linear 0s;
+        }
+        .profile_card1:hover .profile_content .social-link{
+            transform: translateX(0);
+        }
+        .profile_card1 .profile_content .social-link li{
+            list-style:none;
+            display:block;
+            margin:7px 5px;
+            text-align: right;
+        }
+        .profile_card1 .profile_content .social-link li a{
+            color:#fff;
+            width:30px;
+            height:30px;
+            line-height:30px;
+            text-align: center;
+            background: transparent;
+            border:1px solid rgb(91, 33, 129);;
+        }
+        .profile_card1 .profile_content .social-link li a:hover{
+            background:rgb(91, 33, 129);;
+            text-decoration:none;
+        }
